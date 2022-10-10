@@ -46,6 +46,46 @@ html {
     overflow: hidden;
   }
   
+  .button {
+    border: #405C71;
+    border-radius: 15%;
+    background-color: #0D6EFD;
+    color: white;
+    margin-left: 15%;
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(110, 127, 128, 0.1);
+  }
+  .table {
+    
+    justify-content: space-between;
+    text-align: center;
+  }
+  .time {
+    background-color: rgb(110, 127, 128, 0.1);
+    margin-bottom: 0px;
+  }
+
+  .down_time {
+    background-color: rgb(110, 127, 128, 0.5);
+    color: white;
+  }
+  .text-size {
+    font-size: 10px;
+  }
+li {
+  color: #0D6EFD;
+}
+span{
+  color: black;
+}
+.map {
+  padding-bottom: 5px;
+}
+
   @media screen and (min-width: 1280px) {
     body {
       font-size: 16px;
@@ -66,7 +106,7 @@ html {
   header {
     padding-top: 20px;
     color: #fff;
-    background-color: #405c71;
+    background: #405c71;
   }
   
   header h1 {
@@ -80,35 +120,6 @@ html {
     margin: 0;
   }
   
-  /* Site Navigation */
-  .site-nav {
-    margin-top: 20px;
-  }
-  
-  .site-nav ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .site-nav li {
-    list-style: none;
-    float: left;
-    margin-right: 5px;
-  }
-  
-  .site-nav a {
-    display: block;
-    color: #fff;
-    padding: 10px 20px;
-    background-color: #365267;
-    transition-property: color, background-color;
-    transition-duration: 2s;
-  }
-  
-  .site-nav a:hover {
-    background-color: #fff;
-    color: #2c465a;
-  }
   
   @media screen and (max-width: 1023px) {
     .site-nav li {
