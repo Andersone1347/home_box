@@ -86,6 +86,7 @@ span{
   padding-bottom: 5px;
 }
 
+
   @media screen and (min-width: 1280px) {
     body {
       font-size: 16px;
@@ -120,6 +121,15 @@ span{
     margin: 0;
   }
   
+  .table_au {
+    font-size: 14px;
+  }
+  .table_au td {
+    padding-right: 30px;
+  }
+  .description {
+    font-size: 12px;
+  }
   
   @media screen and (max-width: 1023px) {
     .site-nav li {
